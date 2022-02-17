@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import { Navbar } from "src/components";
 import { GlobalStyle } from "src/styles/globalStyle";
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -10,7 +11,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 				<title>한세사이버보안고등학교 보안관제 동아리</title>
 			</Head>
 			<GlobalStyle />
-			<Component {...pageProps} />;
+			<Navbar />
+			<Component {...pageProps} />
 		</>
 	);
 }
