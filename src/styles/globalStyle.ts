@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     :root {
-        --color-primary: #6C51FF;
+        --color-primary: #5B3CFF;
     }
 
     html, body, #__next {
@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Spoqa Han Sans Neo', sans-serif;
         background: #0E0F13;
         color: white;
+        letter-spacing: -0.055em;
     }
 
     .container {
