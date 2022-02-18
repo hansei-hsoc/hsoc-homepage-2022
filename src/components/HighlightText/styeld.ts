@@ -8,4 +8,5 @@ export const HighlightTextContainer = styled.div`
 	background-color: var(--color-primary);
 	padding: 4px 12px;
 	border-radius: 7px;
+	line-height: 20px;
 `;

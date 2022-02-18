@@ -5,6 +5,7 @@ export const Title = styled.h1`
 	font-weight: 700;
 	color: white;
 	margin: 20px 0;
+	line-height: 56px;
 `;
 
 export const RecruitmentDateText = styled.p`

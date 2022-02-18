@@ -11,4 +11,5 @@ export const ButtonElement = styled.button`
 	padding: 10px 20px;
 	border-radius: 10px;
 	letter-spacing: -0.055em;
+	line-height: 23px;
 `;
