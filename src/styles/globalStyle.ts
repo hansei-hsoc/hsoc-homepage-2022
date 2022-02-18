@@ -9,7 +9,12 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     :root {
-        --color-primary: #5B3CFF;
+        --small-mobile-breakpoint: 575px;
+        --mobile-breakpoint: 767px;
+        --tablet-breakpoint: 991px;
+        --desktop-breakpoint: 1200px;
+        
+        --color-primary: #5B3CFF;  
     }
 
     html, body, #__next {
@@ -27,5 +32,13 @@ export const GlobalStyle = createGlobalStyle`
         width: 100%;
         max-width: 1280px;
         margin: 0 auto;
+
+        @media screen and (max-width: 1300px) { 
+            padding: 0 50px;
+        }
+
+        @media screen and (max-width: 767px) {
+           padding: 0 30px;
+        }
     }
 `;
