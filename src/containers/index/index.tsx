@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import * as S from "./styled";
 import { Button, HighlightText, Section, SectionTemplate } from "src/components";
-import LogoCardSVG from "src/assets/svg/logo-card.svg";
+import LogoBig from "src/assets/png/logo-big.png";
 import SixthSecurityContestJPG from "src/assets/png/6th-security-contest.jpg";
 import SeventhSecurityContestJPG from "src/assets/png/7th-security-contest.jpg";
 import ServerRoom1JPG from "src/assets/png/server-room-1.jpg";
@@ -12,6 +12,7 @@ import Contest1PNG from "src/assets/png/contest-1.png";
 import Contest2JPG from "src/assets/png/contest-2.jpg";
 import Contest3JPG from "src/assets/png/contest-3.jpg";
 import MentorJPG from "src/assets/png/mentor.jpg";
+import Link from "next/link";
 
 const IndexPage: NextPage = () => {
 	return (
@@ -26,11 +27,15 @@ const IndexPage: NextPage = () => {
 							신입 부원 모집 중
 						</S.Title>
 						<S.RecruitmentDateText>2022. 03. 03 ~ 2022. 04. 01</S.RecruitmentDateText>
-						<Button>지원하러 가기 &nbsp;{">"}</Button>
+						<Link href="https://gig1v7zpsiw.typeform.com/to/cIzGmf7t" passHref>
+							<a target="_blank">
+								<Button>지원하러 가기 &nbsp;{">"}</Button>
+							</a>
+						</Link>
 					</div>
 
 					<div>
-						<LogoCardSVG />
+						<S.LogoBigImage src={LogoBig.src} />
 					</div>
 				</S.SectionContentContainer>
 			</Section>

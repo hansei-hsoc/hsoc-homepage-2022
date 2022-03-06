@@ -21,6 +21,15 @@ export const RecruitmentDateText = styled.p`
 	margin-bottom: 60px;
 `;
 
+export const LogoBigImage = styled.div<{ src: string }>`
+	width: 300px;
+	height: 300px;
+	opacity: 0.9;
+	background-size: cover;
+	background-image: url(${(props) => props.src});
+	filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.25));
+`;
+
 export const SectionContentContainer = styled.div`
 	display: flex;
 	align-items: center;

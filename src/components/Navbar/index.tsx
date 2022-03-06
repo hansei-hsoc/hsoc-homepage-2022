@@ -7,15 +7,7 @@ import Link from "next/link";
 
 const navMenuList = [
 	{
-		href: "/",
-		text: "홈",
-	},
-	{
-		href: "/",
-		text: "분야",
-	},
-	{
-		href: "/",
+		href: "/qna",
 		text: "Q&A",
 	},
 	{
