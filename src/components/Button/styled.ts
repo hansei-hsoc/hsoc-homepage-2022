@@ -7,9 +7,9 @@ export const ButtonElement = styled.button`
 	font-weight: 500;
 	color: white;
 	background-color: var(--color-primary);
-	box-shadow: 0px 0px 5px rgba(78, 51, 220, 0.34);
+	box-shadow: 0px 0px 5px rgba(78, 51, 220, 0.2);
 	padding: 10px 20px;
-	border-radius: 10px;
+	border-radius: 7px;
 	letter-spacing: -0.055em;
 	line-height: 23px;
 `;

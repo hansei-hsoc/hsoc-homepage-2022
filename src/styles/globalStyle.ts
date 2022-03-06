@@ -19,7 +19,6 @@ export const GlobalStyle = createGlobalStyle`
 
     html, body, #__next {
         width: 100%;
-        height: 100%;
         font-size: 16px;
         font-weight: 400;
         font-family: 'Spoqa Han Sans Neo', sans-serif;
@@ -30,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
 
     .container {
         width: 100%;
-        max-width: 1280px;
+        max-width: 1100px;
         margin: 0 auto;
 
         @media screen and (max-width: 1300px) { 

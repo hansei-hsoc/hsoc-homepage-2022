@@ -9,6 +9,7 @@ export const NavbarWrapper = styled.nav`
 	background: linear-gradient(180deg, rgba(21, 21, 23, 0.7) 0%, rgba(21, 21, 23, 0) 100%);
 	border: 2px solid rgba(13, 14, 18, 0.5);
 	padding: 10px 0;
+	z-index: 99;
 `;
 
 export const NavbarContainer = styled.div`
@@ -33,6 +34,7 @@ export const NavbarMenuItem = styled.li`
 	float: left;
 
 	&:hover {
+		font-weight: 500;
 		text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.39);
 	}
 
