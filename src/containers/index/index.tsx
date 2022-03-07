@@ -27,7 +27,7 @@ const IndexPage: NextPage = () => {
 							신입 부원 모집 중
 						</S.Title>
 						<S.RecruitmentDateText>2022. 03. 03 ~ 2022. 04. 01</S.RecruitmentDateText>
-						<Link href="https://gig1v7zpsiw.typeform.com/to/cIzGmf7t" passHref>
+						<Link href="https://form.typeform.com/to/cIzGmf7t" passHref>
 							<a target="_blank">
 								<Button>지원하러 가기 &nbsp;{">"}</Button>
 							</a>
