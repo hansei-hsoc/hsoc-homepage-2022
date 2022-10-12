@@ -11,7 +11,7 @@ const navMenuList = [
 		text: "Q&A",
 	},
 	{
-		href: "https://hctf.hsoc.kr",
+		href: "https://wargame.hsoc.kr",
 		text: "워게임",
 	},
 ];
