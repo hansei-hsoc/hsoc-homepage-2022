@@ -22,14 +22,14 @@ const IndexPage: NextPage = () => {
 					<div>
 						<HighlightText>Hello, 2022!</HighlightText>
 						<S.Title>
-							보안관제 동아리
+							<small>제 8회 한세사이버보안고등학교</small>
 							<br />
-							신입 부원 모집 중
+							중학생 정보보안 콘테스트
 						</S.Title>
-						<S.RecruitmentDateText>2022. 03. 03 ~ 2022. 04. 01</S.RecruitmentDateText>
-						<Link href="https://form.typeform.com/to/cIzGmf7t" passHref>
+						<S.RecruitmentDateText>2022. 11. 12(토) 09:30 ~ 17:30 (8시간)</S.RecruitmentDateText>
+						<Link href="https://wargame.hsoc.kr" passHref>
 							<a target="_blank">
-								<Button>지원하러 가기 &nbsp;{">"}</Button>
+								<Button>워게임 사이트로 이동하기 &nbsp;{">"}</Button>
 							</a>
 						</Link>
 					</div>
