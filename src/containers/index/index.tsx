@@ -92,7 +92,7 @@ const IndexPage: NextPage = () => {
 					<>
 						보안관제 동아리는 교내 동아리 중 유일하게
 						<br />
-						7년째 교내/외 해킹 대회를 매년 각각 1회 운영하고 있어요
+						8년째 교내/외 해킹 대회를 매년 각각 1회 운영하고 있어요
 					</>
 				}
 				links={[{ text: "관련 뉴스 기사", href: "https://www.boannews.com/media/view.asp?idx=102431" }]}
