@@ -20,16 +20,16 @@ const IndexPage: NextPage = () => {
 			<Section>
 				<S.SectionContentContainer>
 					<div>
-						<HighlightText>Hello, HISCON!</HighlightText>
+						<HighlightText>Hello, HSOC!</HighlightText>
 						<S.Title>
-							<small>제 8회 한세사이버보안고등학교</small>
+							<small>한세사이버보안고등학교</small>
 							<br />
-							한세 정보보안 콘테스트 (HISCON)
+							보안관제 동아리반 모집
 						</S.Title>
-						<S.RecruitmentDateText>2022. 11. 12(토) 10:00 ~ 17:30 (7시간 30분)</S.RecruitmentDateText>
-						<Link href="https://wargame.hsoc.kr" passHref>
+						<S.RecruitmentDateText>2023. 3. 12(월) ~ 2023. 3. 17(금)</S.RecruitmentDateText>
+						<Link href="/history" passHref>
 							<a target="_blank">
-								<Button>워게임 사이트로 이동하기 &nbsp;{">"}</Button>
+								<Button>관제 일지 &nbsp;{">"}</Button>
 							</a>
 						</Link>
 					</div>

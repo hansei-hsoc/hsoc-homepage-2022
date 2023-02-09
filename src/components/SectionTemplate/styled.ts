@@ -33,6 +33,12 @@ export const ShortDescriptionText = styled.p`
 	}
 `;
 
+export const ShortDescriptionTextSecondary = styled(ShortDescriptionText)`
+	margin-top: 10px;
+	margin: 0;
+	color: var(--color-secondary);
+`;
+
 export const TitleText = styled.p`
 	color: white;
 	font-size: 40px;
@@ -55,6 +61,7 @@ export const TitleText = styled.p`
 `;
 
 export const DescriptionText = styled.p`
+	width: 330px;
 	color: #b1b3ba;
 	font-size: 18px;
 	font-weight: 400;

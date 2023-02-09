@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
         --desktop-breakpoint: 1200px;
         
         --color-primary: #5B3CFF;  
+        --color-secondary: #fafafa;
     }
 
     html, body, #__next {

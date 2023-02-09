@@ -9,6 +9,9 @@ const navMenuList = [
 	{
 		href: "/qna",
 		text: "Q&A",
+	},{
+		href: "/history",
+		text: "관제 일지",
 	},
 	{
 		href: "https://wargame.hsoc.kr",

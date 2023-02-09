@@ -9,12 +9,13 @@ import { useScrollFadeIn } from "src/hooks/useScrollFaedIn";
 interface SectionTemplateProps {
 	isSecondary?: boolean;
 	shortDescription: string | React.ReactNode;
+	ShortDescriptionTextSecondary?: string | React.ReactNode;
 	title: string | React.ReactNode;
 	description: string | React.ReactNode;
 	links?: { text: string; href: string }[];
 }
 
-export const SectionTemplate: React.FC<SectionTemplateProps> = ({ isSecondary, shortDescription, title, description, links, children }) => {
+export const SectionTemplate: React.FC<SectionTemplateProps> = ({ isSecondary, shortDescription, title, description, links, children, ShortDescriptionTextSecondary }) => {
 	const animatedItem = useScrollFadeIn<HTMLDivElement>("up", 0.5);
 
 	return (
@@ -22,6 +23,7 @@ export const SectionTemplate: React.FC<SectionTemplateProps> = ({ isSecondary, s
 			<S.SectionContentContainer isSecondary={isSecondary} {...animatedItem}>
 				<div>
 					<S.ShortDescriptionText>{shortDescription}</S.ShortDescriptionText>
+					<S.ShortDescriptionTextSecondary>{ShortDescriptionTextSecondary}</S.ShortDescriptionTextSecondary>
 					<S.TitleText>{title}</S.TitleText>
 					<S.DescriptionText>{description}</S.DescriptionText>
 					<S.LinksContainer>

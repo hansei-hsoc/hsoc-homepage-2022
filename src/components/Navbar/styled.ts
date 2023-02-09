@@ -7,7 +7,8 @@ export const NavbarWrapper = styled.nav`
 
 	backdrop-filter: blur(54px);
 	background: linear-gradient(180deg, rgba(21, 21, 23, 0.7) 0%, rgba(21, 21, 23, 0) 100%);
-	border: 2px solid rgba(13, 14, 18, 0.5);
+	/* border: 2px solid rgba(13, 14, 18, 0.5); */
+	border-bottom: 1px solid #6A6A6A;
 	padding: 10px 0;
 	z-index: 99;
 `;
